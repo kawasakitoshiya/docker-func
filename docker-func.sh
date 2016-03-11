@@ -6,6 +6,6 @@ cleanup-unused-images (){
 
 # https://github.com/chadoe/docker-cleanup-volumes
 cleanup-volumes (){
-
+    wget https://raw.githubusercontent.com/chadoe/docker-cleanup-volumes/master/docker-cleanup-volumes.sh && sudo bash docker-cleanup-volumes.sh
 }
 
